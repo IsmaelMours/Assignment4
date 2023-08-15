@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 200px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding-bottom: 130px;
+  border-radius: 5px;
+  display: relative;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  background: #164B60;
+
+}
+
+.btn:focus {
+  outline: none;
+}
+.nav-btn {
+
+
+  float: right; /* Adjust as needed for spacing */
+}
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #164B60;
+  z-index: auto;
+}
+.img-form {
+  text-align: center;
+}
+
+.file-control {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-control {
+  width: 400px;
+height: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+.center-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center-file-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header {
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-content {
+  margin-left: auto; /* Move content to the right */
+}
+/* ... (previously defined styles) */
+
+.back-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 1rem;
+  font-size: 18px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.back-button span {
+  margin-left: 5px;
+}
+.member {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px 30px;
+  max-width: 600px;
+  margin-bottom: 10px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.member-image {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.member-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.member-details {
+  flex-grow: 1;
+}
+
+.member-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.edit-icon {
+  color: blue;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+}
+
+.job-title {
+  font-style: italic;
+  color: #666;
+}
